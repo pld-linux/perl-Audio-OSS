@@ -2,8 +2,8 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Audio
-%define		pnam	OSS
+%define	pdir	Audio
+%define	pnam	OSS
 Summary:	Audio::OSS Perl module - interface to Open Sound System
 Summary(pl):	Modu³ Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
