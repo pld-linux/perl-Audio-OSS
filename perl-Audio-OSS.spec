@@ -8,12 +8,12 @@ Summary:	Audio::OSS Perl module - interface to Open Sound System
 Summary(pl):	Modu³ Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
 Version:	0.0501
-Release:	2
+Release:	3
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 Provides:	perl(Audio::OSS::Constants)
 # it uses C code only at build time - built package doesn't contain any binaries
 BuildArch:	noarch
