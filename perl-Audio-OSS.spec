@@ -47,7 +47,7 @@ odczytywanie mo¿liwo¶ci urz±dzenia d¼wiêkowego, sprawdzanie
 obs³ugiwanych czêstotliwo¶ci próbkowania itp. Modu³ Audio::OSS
 udostêpnia proceduralny interfejs oparty na uchwytach plików
 zwi±zanych z urz±dzeniem d¼wiêkowym (zazwyczaj /dev/dsp* dla d¼wiêku
-PCM). Modu³ tak¿e definiuje sta³ê dla ró¿nych wywo³añ ioctl oraz
+PCM). Modu³ tak¿e definiuje sta³e dla ró¿nych wywo³añ ioctl oraz
 innych rzeczy zwi±zanych z plikami nag³ówkowymi OSS, wiêc nie trzeba
 polegaæ na plikach .ph.
 
