@@ -9,7 +9,8 @@ Summary(pl):	Modu³ Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
 Version:	0.0501
 Release:	3
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8c77167acea908501c243be198149efb
