@@ -8,7 +8,7 @@ Summary:	Audio::OSS Perl module - interface to Open Sound System
 Summary(pl):	Modu³ Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
 Version:	0.0501
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
