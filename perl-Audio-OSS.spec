@@ -5,7 +5,7 @@
 %define		pdir	Audio
 %define		pnam	OSS
 Summary:	Audio::OSS Perl module - interface to Open Sound System
-Summary(pl):	Modu³ Perla Audio::OSS - interfejs do Open Sound System
+Summary(pl.UTF-8):   ModuÅ‚ Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
 Version:	0.0501
 Release:	4
@@ -36,20 +36,20 @@ things based on the OSS system header files, so you don't have to rely
 on .ph files that may or may be correct or even present on your
 system.
 
-%description -l pl
-Ten modu³ udostêpnia czysto perlowy, logiczny, oparty na uchwytach
-plików interfejs do systemu d¼wiêku Open Sound. Audio::DSP jest dobry
-do prostego, blokuj±cego odtwarzania/nagrywania d¼wiêku, ale nie
-wystarcza, je¶li trzeba zrobiæ co¶ bardziej skomplikowanego. To znaczy
-nie udostêpnia mo¿liwo¶ci interfejsu OSS potrzebnych do rzeczy takich
-jak nie blokuj±cy d¼wiêk, kontrola odtwarzania w czasie rzeczywistym,
-odczytywanie mo¿liwo¶ci urz±dzenia d¼wiêkowego, sprawdzanie
-obs³ugiwanych czêstotliwo¶ci próbkowania itp. Modu³ Audio::OSS
-udostêpnia proceduralny interfejs oparty na uchwytach plików
-zwi±zanych z urz±dzeniem d¼wiêkowym (zazwyczaj /dev/dsp* dla d¼wiêku
-PCM). Modu³ tak¿e definiuje sta³e dla ró¿nych wywo³añ ioctl oraz
-innych rzeczy zwi±zanych z plikami nag³ówkowymi OSS, wiêc nie trzeba
-polegaæ na plikach .ph.
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia czysto perlowy, logiczny, oparty na uchwytach
+plikÃ³w interfejs do systemu dÅºwiÄ™ku Open Sound. Audio::DSP jest dobry
+do prostego, blokujÄ…cego odtwarzania/nagrywania dÅºwiÄ™ku, ale nie
+wystarcza, jeÅ›li trzeba zrobiÄ‡ coÅ› bardziej skomplikowanego. To znaczy
+nie udostÄ™pnia moÅ¼liwoÅ›ci interfejsu OSS potrzebnych do rzeczy takich
+jak nie blokujÄ…cy dÅºwiÄ™k, kontrola odtwarzania w czasie rzeczywistym,
+odczytywanie moÅ¼liwoÅ›ci urzÄ…dzenia dÅºwiÄ™kowego, sprawdzanie
+obsÅ‚ugiwanych czÄ™stotliwoÅ›ci prÃ³bkowania itp. ModuÅ‚ Audio::OSS
+udostÄ™pnia proceduralny interfejs oparty na uchwytach plikÃ³w
+zwiÄ…zanych z urzÄ…dzeniem dÅºwiÄ™kowym (zazwyczaj /dev/dsp* dla dÅºwiÄ™ku
+PCM). ModuÅ‚ takÅ¼e definiuje staÅ‚e dla rÃ³Å¼nych wywoÅ‚aÅ„ ioctl oraz
+innych rzeczy zwiÄ…zanych z plikami nagÅ‚Ã³wkowymi OSS, wiÄ™c nie trzeba
+polegaÄ‡ na plikach .ph.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
