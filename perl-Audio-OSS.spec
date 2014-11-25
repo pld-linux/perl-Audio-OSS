@@ -1,9 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Audio
 %define		pnam	OSS
+%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::OSS Perl module - interface to Open Sound System
 Summary(pl.UTF-8):	Moduł Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
@@ -14,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8c77167acea908501c243be198149efb
+URL:		http://search.cpan.org/dist/Audio-OSS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Provides:	perl(Audio::OSS::Constants)
