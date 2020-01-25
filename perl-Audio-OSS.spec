@@ -4,7 +4,6 @@
 
 %define		pdir	Audio
 %define		pnam	OSS
-%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::OSS Perl module - interface to Open Sound System
 Summary(pl.UTF-8):	Moduł Perla Audio::OSS - interfejs do Open Sound System
 Name:		perl-Audio-OSS
